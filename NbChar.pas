@@ -2,10 +2,8 @@
 program NbChar;
 var 
     mot : string;
-    nb : integer;
 begin
     writeln('Saisissez un mot: ');
     readln(mot);
-    nb := Length(mot);
-    writeln('Le nombre de caractere est ', nb);
+    writeln('Le nombre de caractere est ', Length(mot));
 end.

@@ -1,12 +1,12 @@
-(* Ce code affiche la table de multiplication d'un nombre saisi au clavier *)
+(* Ce code affiche la table de multiplication de 1 à 10 *)
 program TableMulti;
 var
-    a : integer;
-    i : integer;
+    a,b : integer;
 begin
-    writeln('Taper un nombre : ');
-    readln(a);
-    writeln('La table de multiplication de ', a,' est : ');
-    for i := 0 to 10 do
-        writeln('> ', a, ' x ', i, ' = ', a*i);
+    for a := 1 to 10 do
+        begin
+            writeln('La table de multiplication de ', a,' est : ');
+            for b := 1 to 10 do
+                writeln('> ', a, ' x ', b, ' = ', a*b);
+        end;
 end.

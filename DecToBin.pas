@@ -9,11 +9,10 @@ begin
     nbrBin := '';
     writeln('Taper un nombre decimal : ');
     readln(nbrDec);
-    nbrBin := IntToStr(nbrDec mod 2) + nbrBin;
-    while (nbrDec div 2) <> 0 do
+    while nbrDec > 0 do
         begin
-            nbrDec := nbrDec div 2;
             nbrBin := IntToStr(nbrDec mod 2) + nbrBin;
+            nbrDec := nbrDec div 2;
         end;
     writeln('Le nombre binaire est: ', nbrBin);
 end.
