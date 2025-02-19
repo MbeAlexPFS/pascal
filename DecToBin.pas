@@ -1,3 +1,4 @@
+{$codepage UTF8}
 (* Ce code permet la conversion d'un nombre decimal saisi au clavier en un nombre binaire *)
 program DecToBin;
 uses
@@ -7,7 +8,7 @@ var
     nbrBin : string;
 begin
     nbrBin := '';
-    writeln('Taper un nombre decimal : ');
+    writeln('Taper un nombre décimal : ');
     readln(nbrDec);
     while nbrDec > 0 do
         begin

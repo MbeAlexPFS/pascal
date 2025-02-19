@@ -1,3 +1,4 @@
+{$codepage UTF8}
 (* Ce code permet de calculer l'age d'une personne à partir de la saisie de son année de naissance avec possibilité de saisies multiples*)
 program CalcAge;
 var
@@ -10,7 +11,7 @@ begin
     continuer := true;
     while continuer do
         begin
-            writeln('Veuillez saisir votre annee de naissance : ');
+            writeln('Veuillez saisir votre année de naissance : ');
             readln(annee_nai);
             if annee_nai < annee_act then
                 begin
@@ -19,13 +20,13 @@ begin
                     readln(choix);
                     if not (choix = 'y') then
                         begin
-                            writeln('Vous avez decide de quitter le programme en ne tapant pas la lettre cle.');
+                            writeln('Vous avez décidé de quitter le programme en ne tapant pas la lettre clé.');
                             continuer := false;
                         end;
 
                 end
             else
-                writeln('L''annee de naissance doit etre inferieur a l''annee actuelle ', annee_act);
+                writeln('L''année de naissance doit être inférieure à l''année actuelle ', annee_act);
         end;
 end.
             

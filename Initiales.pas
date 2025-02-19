@@ -1,3 +1,4 @@
+{$codepage UTF8}
 (* Ce code permet d'afficher les initiales d'un nom et prenom saisis au clavier *)
 program Initiales;
 var 
@@ -5,7 +6,7 @@ var
 begin
     writeln('Saisissez votre nom: ');
     readln(nom);
-    writeln('Saisissez votre prenom: ');
+    writeln('Saisissez votre prénom: ');
     readln(prenom);
     writeln('Vos initiales sont: ', copy(nom,1,1) + copy(prenom,1,1));
 end.

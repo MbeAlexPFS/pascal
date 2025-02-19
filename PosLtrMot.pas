@@ -1,3 +1,4 @@
+{$codepage UTF8}
 (* Ce code permet de récupérer la position d'une lettre dans un mot , en cas d'absence il retourne 0 *)
 program PosLtrMot;
 var
@@ -15,9 +16,9 @@ begin
             if Copy(Mot, i, 1) = Ltr then
                 begin
                     Pos := i;
-                    writeln('La lettre ''',Ltr,''' se trouve a la position ', Pos);   
+                    writeln('La lettre ''',Ltr,''' se trouve à la position ', Pos);   
                 end; 
         end;
     if Pos = 0 then
-        writeln('La lettre ''',Ltr,''' est absente, elle se trouve donc a la position 0');   
+        writeln('La lettre ''',Ltr,''' est absente, elle se trouve donc à la position 0');   
 end.
