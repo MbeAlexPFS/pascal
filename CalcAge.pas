@@ -1,5 +1,5 @@
 {$codepage UTF8}
-(* Ce code permet de calculer l'age d'une personne à partir de la saisie de son année de naissance avec possibilité de saisies multiples*)
+(* Ce code permet de calculer l'age d'une personne à partir de la saisie de son année de naissance avec possibilité de saisies multiples *)
 program CalcAge;
 var
     annee_nai : integer;
