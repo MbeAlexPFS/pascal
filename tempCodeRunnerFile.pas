@@ -1,2 +1,1 @@
-uses
-  SysUtils;
+etudiantmoyenne[in

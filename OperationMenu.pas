@@ -55,7 +55,6 @@ begin
                     writeln('----------------------------------');
                     writeln('> Choix: ',choix,' | Objet: Inconnu | Message: Choix invalide ');
                 end;
-            writeln('--------------------------------');
-            writeln('--------------------------------');
+            writeln('----------------------------------');
         end;
 end.
