@@ -61,7 +61,7 @@ end;
 
 begin
     (* Afficher le recapitulatif *)
-    writeln('Tableau');
+    writeln('Tableau de multiplication de 1 à 10');
     (* bordure*)
     TabLigneInt(tableau[1], 10, 1);
     write('|       ');TabLigneInt([1,2,3,4,5,6,7,8,9,10],10,2);
