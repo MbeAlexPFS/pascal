@@ -76,7 +76,7 @@ begin
                 write('|', a,'x    ');   
             TabLigneInt(tableau[a], 10, 2);
         end;
-
+"
     (* bordure*)
     TabLigneInt(tableau[1], 10, 3);
 end.

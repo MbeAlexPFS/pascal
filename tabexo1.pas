@@ -1,3 +1,4 @@
+
 {$codepage UTF8}
 program Mon_tableau;
 const
