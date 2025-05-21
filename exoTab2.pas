@@ -9,8 +9,13 @@ begin
     begin
         writeln('Entrer la note n°',i,' comprise entre 0 et 20 :');
         readln(Tab[i]);
+        while not ((Tab[i] >= 0) and (Tab[i] <= 20)) do
+        begin
+            writeln('Entrer la note n°',i,' comprise entre 0 et 20 :');
+            readln(Tab[i]);
+        end;
     end;
-    nbnote := 0;1
+    nbnote := 0;
     for i := 1 to 10 do
     begin
         if Tab[i] >= 10 then

@@ -5,8 +5,7 @@ var
     mot, motInv : Array[1..7] of char;
 begin
     (* debug var *)
-    for i := 1 to 7 do
-        readln(mot[i]);
+    readln(mot);
     writeln(' -> ');
 
     (* function *)
