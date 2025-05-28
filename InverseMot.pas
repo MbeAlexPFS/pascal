@@ -13,6 +13,5 @@ begin
         motInv[i] := mot[8-i];
 
     (* debug *)
-    for i := 1 to 7 do
-        write(motInv[i]);
+    write(motInv);
 end.
